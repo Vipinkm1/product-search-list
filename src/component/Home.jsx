@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 const Home = () => {
     const [data, setData] = useState([])
     const [searchCategory, setSearchCategory] = useState('');
-    const [searchPrice, setSearchPrice] = useState('');
+   
 
     const fetchProduct = async () => {
         try {
