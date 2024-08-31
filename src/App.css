@@ -1,0 +1,45 @@
+.product-List {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+
+}
+
+.product-item {
+  text-align: center;
+  padding: 30px 0 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.product-image {
+  width: 100px; /* Fixed width of the container */
+  height: 100px; /* Fixed height of the container */
+  overflow: hidden; /* Hide any overflow from the image */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  margin: 0 auto;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain; /* Ensure the image covers the container */
+}
+
+.product-name {
+  padding: 10px 0;
+  text-align: start;
+}
+
+.search-item{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+}
+input{
+  width: 40%;
+  padding: 10px;
+}
